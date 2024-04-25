@@ -1,4 +1,5 @@
 
+import { Link } from 'react-router-dom';
 import logo from '../assets/logo.png';
 import FiltroCategoria from './FiltroCategoria';
 import FiltroTipo from './FiltroTipo';
@@ -13,25 +14,25 @@ const Header = () => {
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav mx-auto mb-2 mb-lg-0">
                 <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="/inicio">Inicio</a>
+                    <Link to="/inicio" className="nav-link active" aria-current="page" href="#">Inicio</Link>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link" href="/licor/Brandy/1">Brandy</a>
+                    <Link to="/licor/Brandy/1" className="nav-link" href="#">Brandy</Link>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link" href="/licor/Gin/1">Gin</a>
+                    <Link to="/licor/Gin/1" className="nav-link" href="#">Gin</Link>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link" href="/licor/Rum/1">Rum</a>
+                    <Link to="/licor/Rum/1" className="nav-link" href="#">Rum</Link>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link" href="/licor/Tequila/1">Tequila</a>
+                    <Link to="/licor/Tequila/1" className="nav-link" href="#">Tequila</Link>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link" href="/licor/Vodka/1">Vodka</a>
+                    <Link to="/licor/Vodka/1" className="nav-link" href="#">Vodka</Link>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link" href="/licor/Whiskey/1">Whiskey</a>
+                    <Link to="/licor/Whiskey/1" className="nav-link" href="#">Whiskey</Link>
                 </li>
                 <li className="nav-item dropdown">
                     <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">

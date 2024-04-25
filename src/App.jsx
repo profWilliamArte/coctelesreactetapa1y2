@@ -18,7 +18,7 @@ function App() {
           <Route path='/inicio' element={<Inicio/>}/>
           <Route path='/licor/:id/:tipo' element={<Licor/>}/>
           <Route path='/detalle/:id' element={<Detalle/>}/>
-          <Route path='/' element={<Inicio/>}/>
+          <Route path='/*' element={<Inicio/>}/>
         </Routes>
         <Footer/>
       </BrowserRouter>

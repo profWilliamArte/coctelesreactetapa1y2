@@ -3,7 +3,6 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://tuusuario.github.io/coctelesreactetapa1y2",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
