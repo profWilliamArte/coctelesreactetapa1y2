@@ -14,25 +14,25 @@ const Header = () => {
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav mx-auto mb-2 mb-lg-0">
                 <li className="nav-item">
-                    <Link to="/inicio" className="nav-link active" aria-current="page" href="#">Inicio</Link>
+                    <Link to="coctelesreactetapa1y2/inicio" className="nav-link active" aria-current="page" href="#">Inicio</Link>
                 </li>
                 <li className="nav-item">
-                    <Link to="/licor/Brandy/1" className="nav-link" href="#">Brandy</Link>
+                    <Link to="coctelesreactetapa1y2/licor/Brandy/1" className="nav-link" href="#">Brandy</Link>
                 </li>
                 <li className="nav-item">
-                    <Link to="/licor/Gin/1" className="nav-link" href="#">Gin</Link>
+                    <Link to="coctelesreactetapa1y2/licor/Gin/1" className="nav-link" href="#">Gin</Link>
                 </li>
                 <li className="nav-item">
-                    <Link to="/licor/Rum/1" className="nav-link" href="#">Rum</Link>
+                    <Link to="coctelesreactetapa1y2/licor/Rum/1" className="nav-link" href="#">Rum</Link>
                 </li>
                 <li className="nav-item">
-                    <Link to="/licor/Tequila/1" className="nav-link" href="#">Tequila</Link>
+                    <Link to="coctelesreactetapa1y2/licor/Tequila/1" className="nav-link" href="#">Tequila</Link>
                 </li>
                 <li className="nav-item">
-                    <Link to="/licor/Vodka/1" className="nav-link" href="#">Vodka</Link>
+                    <Link to="coctelesreactetapa1y2/licor/Vodka/1" className="nav-link" href="#">Vodka</Link>
                 </li>
                 <li className="nav-item">
-                    <Link to="/licor/Whiskey/1" className="nav-link" href="#">Whiskey</Link>
+                    <Link to="coctelesreactetapa1y2/licor/Whiskey/1" className="nav-link" href="#">Whiskey</Link>
                 </li>
                 <li className="nav-item dropdown">
                     <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">

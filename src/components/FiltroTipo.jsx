@@ -23,7 +23,7 @@ const FiltroTipo = () => {
     <>
     { datos.map((item,index) => (
        
-        <Link to={`/licor/${item.strAlcoholic}/2`}  key={index} className="dropdown-item" href="#">{item.strAlcoholic}</Link>
+        <Link to={`coctelesreactetapa1y2/licor/${item.strAlcoholic}/2`}  key={index} className="dropdown-item" href="#">{item.strAlcoholic}</Link>
         
      ))} 
      </> 

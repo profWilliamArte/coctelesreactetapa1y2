@@ -15,9 +15,9 @@ function App() {
       <BrowserRouter>
         <Header/>
         <Routes>
-          <Route path='/inicio' element={<Inicio/>}/>
-          <Route path='/licor/:id/:tipo' element={<Licor/>}/>
-          <Route path='/detalle/:id' element={<Detalle/>}/>
+          <Route path='coctelesreactetapa1y2/inicio' element={<Inicio/>}/>
+          <Route path='coctelesreactetapa1y2/licor/:id/:tipo' element={<Licor/>}/>
+          <Route path='coctelesreactetapa1y2/detalle/:id' element={<Detalle/>}/>
           <Route path='/*' element={<Inicio/>}/>
         </Routes>
         <Footer/>
