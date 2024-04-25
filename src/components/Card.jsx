@@ -14,7 +14,7 @@ const Card = ({item}) => {
             <h5 className="lead">{item.strDrink}</h5>
           </div>
           <div className="card-footer">
-            <Link to={`/detalle/${item.idDrink}`} href="#" className="btn btn-outline-dark btn-sm  d-grid">
+            <Link to={`/coctelesreactetapa1y2/detalle/${item.idDrink}`} href="#" className="btn btn-outline-dark btn-sm  d-grid">
               Ver
             </Link>
           </div>
